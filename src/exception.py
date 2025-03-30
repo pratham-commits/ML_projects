@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logger
 
 #any exception is being generated sys will be able to handle it
 
