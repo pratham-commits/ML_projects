@@ -1,5 +1,10 @@
 pandas
 numpy
 seaborn
--e .
+matplotlib
+scikit-learn
+catboost
+xgboost
+#-e .
+#try to comment it out whenever you try to use pip isntall
 
