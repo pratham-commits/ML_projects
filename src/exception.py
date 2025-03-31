@@ -1,5 +1,5 @@
 import sys
-from src.logger import logger
+from src.logger import logging
 
 #any exception is being generated sys will be able to handle it
 
@@ -15,6 +15,7 @@ def error_message_detail(error,error_detail:sys):
         line_number,
         error_msg
     )
+    logging.info('Error occurred:',error_message)
     return error_message
 
 #this function needs to be called when an exception is to be raised
