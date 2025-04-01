@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+dill
 #-e .
 #try to comment it out whenever you try to use pip isntall
 
